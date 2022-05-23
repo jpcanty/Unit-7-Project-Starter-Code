@@ -1,5 +1,5 @@
 <!DOCTYPE html> <html><head>
-        <title>Unit 7 Project Starter Code</title>
+        <title>Unit 7 Project</title>
     <script>function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 /*! jQuery v3.6.0 | (c) OpenJS Foundation and other contributors | jquery.org/license */
@@ -4053,7 +4053,7 @@ body {
         <img src="https://media2.giphy.com/media/THlB4bsoSA0Cc/200.gif">
         <p>1. Which dancing agency do you want to work for?</p>
         <input class="answer1">
-        <p>2. How much do you practice a week?</p>
+        <p>2. How many hours do you practice a week?</p>
         <input class="answer2">
         <p>3. What's your best dancing style?</p>
         <input class="answer3">
@@ -4066,8 +4066,8 @@ body {
 /*__POPCODESTART__*/
 $("button").click(function () {
   var answer1 = $(".answer1").val();
-  var answer2 = $("change-me").val();
-  var answer3 = $("change-me").val();
-  alert(answer1);
+  var answer2 = $(".answer2").val();
+  var answer3 = $(".answer3").val();
+  $(".fortune-display").text("If you keep practicing " + answer3 + " for " + answer2 + " hours per week, you will be hired by " + answer1);
 });
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJjbGljayIsImFuc3dlcjEiLCJ2YWwiLCJhbnN3ZXIyIiwiYW5zd2VyMyIsImFsZXJ0Il0sIm1hcHBpbmdzIjoiQUFBQUEsQ0FBQyxDQUFDLFFBQUQsQ0FBRCxDQUFZQyxLQUFaLENBQWtCLFlBQVU7QUFDeEIsTUFBSUMsT0FBTyxHQUFHRixDQUFDLENBQUMsVUFBRCxDQUFELENBQWNHLEdBQWQsRUFBZDtBQUNBLE1BQUlDLE9BQU8sR0FBR0osQ0FBQyxDQUFDLFdBQUQsQ0FBRCxDQUFlRyxHQUFmLEVBQWQ7QUFDQSxNQUFJRSxPQUFPLEdBQUdMLENBQUMsQ0FBQyxXQUFELENBQUQsQ0FBZUcsR0FBZixFQUFkO0FBQ0FHLEVBQUFBLEtBQUssQ0FBQ0osT0FBRCxDQUFMO0FBQ0gsQ0FMRCIsInNvdXJjZXNDb250ZW50IjpbIiQoXCJidXR0b25cIikuY2xpY2soZnVuY3Rpb24oKXtcbiAgICBsZXQgYW5zd2VyMSA9ICQoXCIuYW5zd2VyMVwiKS52YWwoKTtcbiAgICBsZXQgYW5zd2VyMiA9ICQoXCJjaGFuZ2UtbWVcIikudmFsKCk7XG4gICAgbGV0IGFuc3dlcjMgPSAkKFwiY2hhbmdlLW1lXCIpLnZhbCgpO1xuICAgIGFsZXJ0KGFuc3dlcjEpO1xufSk7Il19</script></body></html>
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJjbGljayIsImFuc3dlcjEiLCJ2YWwiLCJhbnN3ZXIyIiwiYW5zd2VyMyIsInRleHQiXSwibWFwcGluZ3MiOiJBQUFBQSxDQUFDLENBQUMsUUFBRCxDQUFELENBQVlDLEtBQVosQ0FBa0IsWUFBVTtBQUN4QixNQUFJQyxPQUFPLEdBQUdGLENBQUMsQ0FBQyxVQUFELENBQUQsQ0FBY0csR0FBZCxFQUFkO0FBQ0EsTUFBSUMsT0FBTyxHQUFHSixDQUFDLENBQUMsVUFBRCxDQUFELENBQWNHLEdBQWQsRUFBZDtBQUNBLE1BQUlFLE9BQU8sR0FBR0wsQ0FBQyxDQUFDLFVBQUQsQ0FBRCxDQUFjRyxHQUFkLEVBQWQ7QUFDQUgsRUFBQUEsQ0FBQyxDQUFDLGtCQUFELENBQUQsQ0FBc0JNLElBQXRCLENBQTJCLDRCQUE0QkQsT0FBNUIsR0FBc0MsT0FBdEMsR0FBZ0RELE9BQWhELEdBQTBELHdDQUExRCxHQUFxR0YsT0FBaEk7QUFDSCxDQUxEIiwic291cmNlc0NvbnRlbnQiOlsiJChcImJ1dHRvblwiKS5jbGljayhmdW5jdGlvbigpe1xuICAgIGxldCBhbnN3ZXIxID0gJChcIi5hbnN3ZXIxXCIpLnZhbCgpO1xuICAgIGxldCBhbnN3ZXIyID0gJChcIi5hbnN3ZXIyXCIpLnZhbCgpO1xuICAgIGxldCBhbnN3ZXIzID0gJChcIi5hbnN3ZXIzXCIpLnZhbCgpO1xuICAgICQoXCIuZm9ydHVuZS1kaXNwbGF5XCIpLnRleHQoXCJJZiB5b3Uga2VlcCBwcmFjdGljaW5nIFwiICsgYW5zd2VyMyArIFwiIGZvciBcIiArIGFuc3dlcjIgKyBcIiBob3VycyBwZXIgd2VlaywgeW91IHdpbGwgYmUgaGlyZWQgYnkgXCIgKyBhbnN3ZXIxKTtcbn0pOyJdfQ==</script></body></html>
